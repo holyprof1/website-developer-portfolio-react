@@ -1,0 +1,24 @@
+.navbar {
+    backdrop-filter: blur(8px);
+  }
+  
+  .navbar ul li a {
+    text-decoration: none !important;
+  }
+  
+  @media (max-width: 640px) {
+    .navbar ul {
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 0.5rem;
+    }
+  
+    .navbar ul li a {
+      font-size: 0.85rem;
+      padding: 0.5rem 1rem;
+    }
+  
+    .logo img {
+      height: 2.5rem;
+    }
+  }
